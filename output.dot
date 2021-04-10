@@ -1,0 +1,53 @@
+digraph N {
+  label = "t=0";
+  labelloc = "top";
+  labeljust = "left";
+  node0 [ label = "0" style = "filled,bold" fillcolor = "/set19/1" ];
+  node1 [ label = "1" style = "filled" fillcolor = "/set19/2" ];
+  node2 [ label = "2" style = "filled" fillcolor = "/set19/3" ];
+  node0 -> node1 [ dir = "both" label = "∞" style = "bold" arrowtail = "dot" arrowhead = "none"];
+}
+
+digraph N {
+  label = "t=0";
+  labelloc = "top";
+  labeljust = "left";
+  node0 [ label = "0" style = "filled" fillcolor = "/set19/1" ];
+  node1 [ label = "1" style = "filled,bold" fillcolor = "/set19/2" ];
+  node2 [ label = "2" style = "filled" fillcolor = "/set19/3" ];
+  node0 -> node1 [ dir = "both" label = "1" style = "bold" arrowtail = "none" arrowhead = "dot"];
+}
+
+digraph N {
+  label = "t=0";
+  labelloc = "top";
+  labeljust = "left";
+  node0 [ label = "0" style = "filled" fillcolor = "/set19/1" ];
+  node1 [ label = "1" style = "filled,bold" fillcolor = "/set19/2" ];
+  node2 [ label = "2" style = "filled" fillcolor = "/set19/3" ];
+  node0 -> node1 [ dir = "both" label = "1" style = "bold" arrowtail = "none" arrowhead = "none"];
+  node1 -> node2 [ dir = "both" label = "∞" style = "bold" arrowtail = "dot" arrowhead = "none"];
+}
+
+digraph N {
+  label = "t=0";
+  labelloc = "top";
+  labeljust = "left";
+  node0 [ label = "0" style = "filled" fillcolor = "/set19/1" ];
+  node1 [ label = "1" style = "filled" fillcolor = "/set19/2" ];
+  node2 [ label = "2" style = "filled,bold" fillcolor = "/set19/3" ];
+  node0 -> node1 [ dir = "both" label = "1" style = "bold" arrowtail = "none" arrowhead = "none"];
+  node1 -> node2 [ dir = "both" label = "1" style = "bold" arrowtail = "none" arrowhead = "dot"];
+}
+
+digraph N {
+  label = "t=0";
+  labelloc = "top";
+  labeljust = "left";
+  node0 [ label = "0" style = "filled" fillcolor = "/set19/1" ];
+  node1 [ label = "1" style = "filled" fillcolor = "/set19/2" ];
+  node2 [ label = "2" style = "filled" fillcolor = "/set19/3" ];
+  node0 -> node1 [ dir = "both" label = "1" style = "bold" arrowtail = "none" arrowhead = "none"];
+  node1 -> node2 [ dir = "both" label = "1" style = "bold" arrowtail = "none" arrowhead = "none"];
+}
+
